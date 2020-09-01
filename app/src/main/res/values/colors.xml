@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D7F5F5</color>
+    <color name="colorPrimary2">#372BB4</color>
+    <color name="colorPrimaryDark">#1B1464</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="app_background_white">#FFFFFFFF</color>
+    <color name="button_color">#3D368E</color>
+    <color name="textColor">#1B1464</color>
+    <color name="app_background">#664a3fb1</color>
+    <color name="app_sec_background">#E5E5E5</color>
+    <color name="green">#FF3ABC25</color>
+    <color name="item_tint">#C2CFE0</color>
+    <color name="reg_text_color">#4A4A4A</color>
+</resources>

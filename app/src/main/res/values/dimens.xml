@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_size_small">16sp</dimen>
+    <dimen name="activity_horizontal_margin">20.28dp</dimen>
+    <dimen name="activity_vertical_margin">20.28dp</dimen>
+
+    <dimen name="padding">5dp</dimen>
+    <dimen name="radius">15dp</dimen>
+    <dimen name="card_padding">10dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="inside_padding">8dp</dimen>
+    <dimen name="appbar_padding">4dp</dimen>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CyberSpace_Test</string>
+    <string name="version">Version: %s</string>
+    <string-array name="pages">
+        <item>step 1/5</item>
+        <item>step 2/5</item>
+        <item>step 3/5</item>
+        <item>step 4/5</item>
+        <item>step 5/5</item>
+    </string-array>
+    <string name="loan_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus lectus magna imperdiet commodo. Eu dolor consectetur morbi ullamcorper cursus. Cursus non gravida integer purus neque feugiat justo cras.</string>
+</resources>

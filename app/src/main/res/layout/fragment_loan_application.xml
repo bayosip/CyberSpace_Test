@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="26.42dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/green_white_set"
+        android:paddingStart="21.5dp"
+        android:paddingEnd="21.5dp"
+        android:paddingTop="26.93dp"
+        android:paddingBottom="32dp">
+
+        <TextView
+            android:id="@+id/textLoanTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/loan_text"
+            style="@style/RegularText"
+            android:letterSpacing="2sp"
+            />
+
+        <TextView
+            android:layout_marginTop="24.15dp"
+            android:id="@+id/textCalculatorTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TitleText"
+            android:textSize="18sp"
+            android:text="Calculate Your Loan"
+            app:layout_constraintTop_toBottomOf="@id/textLoanTitle"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textPPTitle"
+            android:layout_marginTop="38.7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textCalculatorTitle"
+            style="@style/RegularText"
+            android:textSize="12sp"
+            android:text="Payment Plan"
+            android:textColor="@color/reg_text_color"/>
+        
+        <Spinner
+            android:id="@+id/spinnerPlan"
+            android:layout_marginTop="13.34dp"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textPPTitle"
+            ></Spinner>
+
+        <TextView
+            android:id="@+id/textLDTitle"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textCalculatorTitle"
+            style="@style/RegularText"
+            android:textSize="12sp"
+            android:text="Payment Plan"
+            android:textColor="@color/reg_text_color"/>
+
+        <Spinner
+            android:id="@+id/spinnerDuration"
+            android:layout_marginTop="13.34dp"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textPPTitle"
+            ></Spinner>
+
+        <TextView
+            android:id="@+id/textLDTitle"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textCalculatorTitle"
+            style="@style/RegularText"
+            android:textSize="12sp"
+            android:text="Payment Plan"
+            android:textColor="@color/reg_text_color"/>
+
+        <Spinner
+            android:id="@+id/spinnerDuration"
+            android:layout_marginTop="13.34dp"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textPPTitle"
+            ></Spinner>
+        <TextView
+            android:id="@+id/textLDTitle"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textCalculatorTitle"
+            style="@style/RegularText"
+            android:textSize="12sp"
+            android:text="Payment Plan"
+            android:textColor="@color/reg_text_color"/>
+
+        <Spinner
+            android:id="@+id/spinnerDuration"
+            android:layout_marginTop="13.34dp"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:background="@drawable/grey_outline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textPPTitle"
+            ></Spinner>
+
+        
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    
+    <Button
+        android:layout_marginTop="16.72dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        style="@style/AppButtonDark"
+        android:text="Next"
+
+        />
+
+</LinearLayout>
